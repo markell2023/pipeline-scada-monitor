@@ -8,11 +8,14 @@ Main application entry point.
 import time
 from sensors.sensor_simulator import SensorSimulator
 from alarms.alarm_manager import AlarmManager
+from database.database_manager import DatabaseManager
 
 
 def main():
     simulator = SensorSimulator()
     alarm_manager = AlarmManager()
+    database_manager = DatabaseManager()
+
 
     print("===================================")
     print(" Pipeline SCADA Monitor")
@@ -22,6 +25,7 @@ def main():
     for reading_number in range(1, 11):
         reading = simulator.generate_reading()
         alarms = alarm_manager.check_alarms(reading)
+        database_manager.save_reading(reading)
 
         print(f"\nReading #{reading_number}")
         print(f"Timestamp:   {reading['timestamp']}")
