@@ -1,1 +1,17 @@
+# SQLite database
 scada_monitor.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+env/
