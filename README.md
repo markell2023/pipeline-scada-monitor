@@ -1,11 +1,11 @@
 # Pipeline SCADA Monitor
 
-A Python-based SCADA monitoring and alarm management system that simulates industrial pipeline sensor data, stores readings in SQLite, detects alarm conditions, and displays operational metrics in a Streamlit dashboard.
+A Python based SCADA monitoring and alarm management system that simulates industrial pipeline sensor data, stores readings in SQLite, detects alarm conditions, and displays operational metrics in a Streamlit dashboard.
 
 ## Features
 
-- Real-time pipeline sensor simulation
-- Pressure, temperature, and flow-rate monitoring
+- Real time pipeline sensor simulation
+- Pressure, temperature, and flow rate monitoring
 - Alarm detection for abnormal readings
 - SQLite database storage
 - Alarm history tracking
