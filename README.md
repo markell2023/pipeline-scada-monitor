@@ -1,6 +1,6 @@
 # Pipeline SCADA Monitoring Dashboard
 
-A Python based SCADA (Supervisory Control and Data Acquisition) monitoring dashboard that simulates real-time pipeline operations, sensor monitoring, alarm management, and operational reporting.
+A Python-based SCADA (Supervisory Control and Data Acquisition) monitoring dashboard that simulates real-time pipeline operations, sensor monitoring, alarm management, and operational reporting.
 
 Built with Python, Streamlit, SQLite, Git, and GitHub to demonstrate software development, industrial monitoring concepts, and cybersecurity-related skills.
 
@@ -148,4 +148,4 @@ GitHub: https://github.com/markell2023
 
 ## License
 
-This repository is provided for portfolio and educational purposes.
+This repository is intended for portfolio demonstration purposes.
